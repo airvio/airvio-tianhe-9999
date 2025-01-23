@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"scm.alwaysShowActions": false,
+		"scm.alwaysShowRepositories": false,
+		"scm.defaultViewMode": "list"
+	}
+}

@@ -1,5 +1,5 @@
 ---
-
+import Scene from '../components/Scene';
 ---
 
 <html lang="en">
@@ -8,9 +8,16 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>3D Scene - Astro</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Scene client:load />
 	</body>
 </html>
